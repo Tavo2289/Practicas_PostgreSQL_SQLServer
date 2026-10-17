@@ -12,7 +12,6 @@ Este repositorio está dedicado a la práctica y aprendizaje de SQL. Aquí se do
 * **Control de versiones:** Git y GitHub.
 
 ---
-
 ## 📁 Estructura del Repositorio
 
 El repositorio está organizado por motores de base de datos y, a su vez, por cada guía o temática de ejercicios:
@@ -20,13 +19,24 @@ El repositorio está organizado por motores de base de datos y, a su vez, por ca
 ```text
 📦 mi-repo-sql/
  ┣ 📂 postgresql/
- ┃ ┣ 📂 tp-01-consultas-basicas/
- ┃ ┃ ┣ 📜 ejercicios.sql
- ┃ ┗ 📂 tp-02-joins-agregaciones/
+ ┃ ┗ 📂 tp-01-consultas-basicas/
  ┃   ┗ 📜 ejercicios.sql
  ┣ 📂 sqlserver/
- ┃ ┣ 📂 tp-01-consultas-basicas/
- ┃ ┃ ┣ 📜 ejercicios.sql
- ┃ ┗ 📂 tp-02-joins-agregaciones/
+ ┃ ┗ 📂 tp-01-consultas-basicas/
  ┃   ┗ 📜 ejercicios.sql
  ┗ 📜 README.md
+```  
+---
+
+## 📋 Índice de Trabajos Prácticos
+
+### 🟢 PostgreSQL
+| TP # | Descripción / Temática | Estado | Enlace |
+| :--- | :--- | :---: | :--- |
+| **TP 01** | Consultas Básicas | 🟢 Completado | [Ver código](./postgresql/tp-01-consultas-basicas/) |
+| **TP 02** | Joins y Agregaciones | 🟡 En proceso | [Ver código](./postgresql/tp-02-joins/) |
+
+### 🔵 SQL Server
+| TP # | Descripción / Temática | Estado | Enlace |
+| :--- | :--- | :---: | :--- |
+| **TP 01** | Consultas Básicas | 🟢 Completado | [Ver código](./sqlserver/tp-01-consultas-basicas/) |
