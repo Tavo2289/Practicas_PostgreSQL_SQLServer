@@ -17,11 +17,13 @@ Este repositorio está dedicado a la práctica y aprendizaje de SQL. Aquí se do
 El repositorio está organizado por motores de base de datos y, a su vez, por cada guía o temática de ejercicios:
 
 ```text
-📦 mi-repo-sql/
+📦 Practicas_PostgreSQL_SQLServer/
  ┣ 📂 postgresql/
+ ┃ ┗ 📂 TP-1B/
  ┃ ┗ 📂 tp-01-consultas-basicas/
  ┃   ┗ 📜 ejercicios.sql
  ┣ 📂 sqlserver/
+ ┃ ┗ 📂 TP-1B/
  ┃ ┗ 📂 tp-01-consultas-basicas/
  ┃   ┗ 📜 ejercicios.sql
  ┗ 📜 README.md
@@ -33,10 +35,10 @@ El repositorio está organizado por motores de base de datos y, a su vez, por ca
 ### 🔵 PostgreSQL
 | TP # | Descripción / Temática | Estado | Enlace |
 | :--- | :--- | :---: | :--- |
-| **TP 01** | Consultas Básicas | 🟢 Completado | [Ver código](./postgresql/tp-01-consultas-basicas/) |
-| **TP 02** | Joins y Agregaciones | 🟡 En proceso | [Ver código](./postgresql/tp-02-joins/) |
+| **TP 1B** | Consultas Básicas | 🟢 Completado | [Ver código](./postgresql/tp-01-consultas-basicas/) |
+| **TP 01** | Joins y Agregaciones | 🟡 En proceso | [Ver código](./postgresql/tp-02-joins/) |
 
 ### 🔴 SQL Server
 | TP # | Descripción / Temática | Estado | Enlace |
 | :--- | :--- | :---: | :--- |
-| **TP 01** | Consultas Básicas | 🟢 Completado | [Ver código](./sqlserver/tp-01-consultas-basicas/) |
+| **TP 1B** | Consultas Básicas | 🟢 Completado | [Ver código](./sqlserver/tp-01-consultas-basicas/) |
