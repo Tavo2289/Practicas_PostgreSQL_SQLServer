@@ -30,13 +30,13 @@ El repositorio está organizado por motores de base de datos y, a su vez, por ca
 
 ## 📋 Índice de Trabajos Prácticos
 
-### 🟢 PostgreSQL
+### 🔵 PostgreSQL
 | TP # | Descripción / Temática | Estado | Enlace |
 | :--- | :--- | :---: | :--- |
 | **TP 01** | Consultas Básicas | 🟢 Completado | [Ver código](./postgresql/tp-01-consultas-basicas/) |
 | **TP 02** | Joins y Agregaciones | 🟡 En proceso | [Ver código](./postgresql/tp-02-joins/) |
 
-### 🔵 SQL Server
+### 🔴 SQL Server
 | TP # | Descripción / Temática | Estado | Enlace |
 | :--- | :--- | :---: | :--- |
 | **TP 01** | Consultas Básicas | 🟢 Completado | [Ver código](./sqlserver/tp-01-consultas-basicas/) |
