@@ -84,5 +84,28 @@ ORDER BY importe ASC;
 SELECT TOP(237) *
 FROM gasto
 ORDER BY importe ASC;
+----------------------
+-----EJER 19-----
+SELECT periodo, fecha_pago, importe,
+CASE
+WHEN importe<10000 THEN (importe+(importe*0.15))
+WHEN importe<20001 AND importe>9999 THEN (importe+(importe*0.10))
+ELSE (importe+(importe*0.05))
+END AS Importe_Actualizado
+FROM gasto
+ORDER BY Importe_Actualizado DESC;
+-----------------------
+-----EJER 20-----
+SELECT
+SUM(CASE WHEN estado_civil= 'C' THEN 1 ELSE 0 END) AS 'Casado',
+SUM(CASE WHEN estado_civil= 'S' THEN 1 ELSE 0 END) AS 'Soltero'
+FROM persona;
+-----------------------
+-----EJER 21-----
+SELECT
+SUM(importe) AS Sumatoria,
+COUNT (*) AS Cantidad,
+AVG (importe) AS Promedio
+FROM gasto;
 
 
